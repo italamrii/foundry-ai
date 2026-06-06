@@ -1,33 +1,68 @@
 # Foundry AI
 
-Foundry AI is a desktop AI co-founder and product builder that turns a raw project idea into a structured execution blueprint.
+Foundry AI is an AI-powered startup execution platform that transforms raw business ideas into actionable execution blueprints.
 
-## V1 Features
+Instead of giving generic startup advice, Foundry evaluates ideas like a founder, investor, product strategist, and operator.
 
-- Enter a project idea
-- Choose project type
-- Generate a structured blueprint using OpenAI
-- View blueprint sections in tabs
-- Save generated projects locally in SQLite
-- Export blueprint to PDF
+## Features
 
-## Setup
+### Founder Intelligence
 
-```bash
-python -m venv .venv
-.venv\\Scripts\\activate  # Windows
-pip install -r requirements.txt
-copy .env.example .env
-```
+* Founder Verdict
+* Founder Recommendations
+* Build / Test / Avoid decisions
+* Opportunity and Risk Analysis
 
-Add your OpenAI API key to `.env`.
+### Market Intelligence
 
-## Run
+* Market Insights
+* Competitive Moats
+* Distribution Advantages
+* Hidden Opportunities
+* Pivot Suggestions
 
-```bash
-python main.py
-```
+### Product Planning
 
-## Notes
+* Product Blueprint
+* User Roles
+* Core Features
+* MVP Scope
+* Roadmaps
 
-This is the first scalable skeleton. Upcoming improvements should include worker threads, section regeneration, project library, richer PDF styling, and markdown/docx export.
+### Technical Planning
+
+* System Architecture
+* Database Design
+* API Structure
+* Integrations
+* Scalability Recommendations
+
+### Launch Planning
+
+* Pricing Strategy
+* Go-To-Market Plan
+* First 100 Users Strategy
+* Success Metrics
+
+### Productivity
+
+* Project Management
+* Save / Open Projects
+* Delete Projects
+* PDF Export
+* Agent Progress System
+
+## Tech Stack
+
+* Python
+* PySide6
+* OpenAI API
+* SQLite
+
+## Status
+
+Beta v0.9
+
+## Vision
+
+Turn startup ideas into execution-ready companies.
